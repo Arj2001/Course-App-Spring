@@ -28,4 +28,9 @@ public class CourseController {
         return myList;
     }
 
+    @GetMapping("/student")
+    public String student(){
+        return "Adarsh";
+    }
+
 }
