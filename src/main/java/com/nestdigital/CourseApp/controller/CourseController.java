@@ -24,6 +24,7 @@ public class CourseController {
     public List viewAll(){
         List<String> myList = new ArrayList<>();
         myList.add("{'name':'Varun','age':22}");
+        myList.add("{'name':'Jonthan','age':26}");
         return myList;
     }
 
